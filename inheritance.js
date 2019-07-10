@@ -1,11 +1,11 @@
 class Animal {
-    constructor(_name, type, gender, age=0){
+    constructor(type, gender, age=0){
         this.type = type;
         this.gender = gender;
         this.age = age;
     }   
     set nameValue(name) {
-         this._nameValue = name;
+         this.name = name;
         }
     set ageValue(age) {
           this.age = age
