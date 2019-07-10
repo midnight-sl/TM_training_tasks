@@ -69,7 +69,7 @@ class Book {
   }
   continue() {
     neededPageNum = localStorage.getItem('currentPage');
-    console.log(pages[neededPageNum]);
+    return pages[neededPageNum];
   }
 }
 
